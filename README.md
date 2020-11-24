@@ -7,7 +7,7 @@
 * Target: normal user (label 0) or high-value user (label 1)
 
 # Pipeline
-![Pipeline](./image/pipeline.png)
+![Pipeline](./image/pipeline.PNG)
 
 
 # Result
@@ -24,7 +24,7 @@
 ### User login 
 * data
 
-    ![df_login](./image/df_login.png)
+    ![df_login](./image/df_login.PNG)
 
 * Feature extraction
     * Statistics on `login_times` per `userid`
@@ -33,7 +33,7 @@
 ### User Info 
 * data
 
-    ![df_user_info](./image/df_user_info.png)
+    ![df_user_info](./image/df_user_info.PNG)
 
 * Feature extraction
     * lifetime: End time (20200731) to `enroll_time`
@@ -42,7 +42,7 @@
 ### Purchase Detail
 * data
 
-    ![df_purchase_detail](./image/df_purchase_detail.png)
+    ![df_purchase_detail](./image/df_purchase_detail.PNG)
 
 * Feature extraction
     * `epochtime`: epoch time of `grass_date`
