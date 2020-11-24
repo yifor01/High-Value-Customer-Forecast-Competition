@@ -60,7 +60,7 @@
 
 ### In Competition
 * Model : XGBoost, GBM, Deep Learning 
-* Package : `h2o.automl`
+* Package : [`h2o.automl`](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
 * Skill : Grid search optimization, Stacking
 * Score : 0.68177 (Private Leaderboard), 0.69018 (Public Leaderboard)
 * Notebook: `main.ipynb`
