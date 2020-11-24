@@ -67,7 +67,8 @@
 
 ### Late Submit
 * Model : XGBoost, LightGBM, CatBoost
-* Package : `xgboost.XGBClassifier`,`lightgbm.LGBMClassifier`,`catboost.CatBoostClassifier`,`sklearn.ensemble.StackingClassifier`
+* Package : `xgboost.XGBClassifier`,`lightgbm.LGBMClassifier`,`catboost.CatBoostClassifier`,
+    `sklearn.ensemble.StackingClassifier`
 * Skill : Bayesian optimization, Calibration, Stacking
 * Notebook: `late_submit.ipynb`
 * Kaggle Score:
