@@ -69,8 +69,12 @@
 * Model : XGBoost, LightGBM, CatBoost
 * Package : `xgboost.XGBClassifier`,`lightgbm.LGBMClassifier`,`catboost.CatBoostClassifier`,`sklearn.ensemble.StackingClassifier`
 * Skill : Bayesian optimization, Calibration, Stacking
-* Score : 0.70012 (Private Leaderboard), 0.71317 (Public Leaderboard)
 * Notebook: `late_submit.ipynb`
+* kaggle score:
+  
+  ![result](./image/result.PNG)
+
+
 
 # Model Training Step
 ### In Competition
