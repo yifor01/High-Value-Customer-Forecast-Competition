@@ -36,8 +36,8 @@
     ![df_user_info](./image/df_user_info.PNG)
 
 * Feature extraction
-    * lifetime: End time (20200731) to `enroll_time`
-    * age: End year (2020) to `birth_year`
+    * `lifetime`: End time (20200731) to `enroll_time`
+    * `age`: End year (2020) to `birth_year`
       
 ### Purchase Detail
 * data
@@ -70,7 +70,7 @@
 * Package : `xgboost.XGBClassifier`,`lightgbm.LGBMClassifier`,`catboost.CatBoostClassifier`,`sklearn.ensemble.StackingClassifier`
 * Skill : Bayesian optimization, Calibration, Stacking
 * Notebook: `late_submit.ipynb`
-* kaggle score:
+* Kaggle Score:
   
   ![result](./image/result.PNG)
 
@@ -88,7 +88,7 @@
 * Soft voting all of the above results.
 
 # Conclusion
-* Model hyperparameter adjustment has little effect on the results.
+* The model hyperparameter adjustment has little effect on the results.
 * The effect of the feature extraction results on the results is significant, especially the purchase history.
-* LightGBM is a powerful model at this competition.
+* LightGBM is a powerful model in this competition.
 * Manual adjusting of the model architecture gives better results than the automl method.
